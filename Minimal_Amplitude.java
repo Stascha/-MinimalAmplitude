@@ -39,19 +39,19 @@ public class Main
         				
    }
 
-	public static void main(String args[])
-	{
-	    int min;
-	    int[] a = {3, 1, 3, 9, 8, 3};
-	    int K = 4;
+   public static void main(String args[])
+   {
+       int min;
+       int[] a = {3, 1, 3, 9, 8, 3};
+       int K = 4;
 	
-	    min = minimal_amplitude(a, K);
+       min = minimal_amplitude(a, K);
 
-	    System.out.print( " Minimal amplitude that can be obtained after the removal of " + K + " consecutive elements from A = " + min);
+       System.out.print( " Minimal amplitude that can be obtained after the removal of " + K + " consecutive elements from A = " + min);
 		
-	    System.out.println(); 
+       System.out.println(); 
 
-	}
+   }
 
 
 }
