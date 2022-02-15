@@ -1,1 +1,1 @@
-# -MinimalAmplitude
+# Minimal-Amplitude
