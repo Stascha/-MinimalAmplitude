@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class Main 
 {	
-	public static int  minimal_amplitude(int[] a, int K)
+    public static int  minimal_amplitude(int[] a, int K)
     {
         int[] array_without_K_consecutive_el = new int[a.length - K];
         int min_amp = 2147483647;
@@ -35,24 +35,23 @@ public class Main
           
         }
         
-       return min_amp;
+        return min_amp;
         				
-	}
+   }
 
 	public static void main(String args[])
 	{
 	    int min;
-		int[] a = {3, 1, 3, 9, 8, 3};
-		int K = 4;
+	    int[] a = {3, 1, 3, 9, 8, 3};
+	    int K = 4;
 	
 	    min = minimal_amplitude(a, K);
 
-		System.out.print( " Minimal amplitude that can be obtained after the removal of " + K + " consecutive elements from A = " + min);
-	
-		   
+	    System.out.print( " Minimal amplitude that can be obtained after the removal of " + K + " consecutive elements from A = " + min);
 		
-		System.out.println(); 
-		
-	
+	    System.out.println(); 
+
 	}
+
+
 }
